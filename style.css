@@ -41,14 +41,28 @@ h1{
 #text-align{
     text-align: center;
 }
+.flexible-container{
+    justify-content:center;
+    display: flex;
+}
 .mission-vission-goal{
-    width: 40%;
-    margin-left: 6%;
-    margin-right: 6%;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: rgb(188, 205, 212);
+    width: 300px;
+    height: auto;
+    margin-right: .5in;
+    padding-left: 20px;
     border-radius: 10px;
-    
- 
+}
+#card1-bg{
+    background-color:rgb(231, 250, 249);
+}
+#card2-bg{
+    background-color:rgb(253, 238, 241);
+}
+#card3-bg{
+    background-color:cornsilk;
+}
+.card-img{
+    height: 100px;
+    width: 100px;
+    margin-top: 1em;
 }
