@@ -27,12 +27,17 @@ h1{
 .half-width img{
     width: 75%;
 }
+.btn-margin{
+    width:150px;
+    margin-top: .1in;
+}
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 8px 20px;
     border-radius: 5px;
     color: white;
+    
     
 }
 .orange-color{
@@ -46,23 +51,53 @@ h1{
     display: flex;
 }
 .mission-vission-goal{
-    width: 300px;
+    width: 25%;
     height: auto;
-    margin-right: .5in;
-    padding-left: 20px;
+    padding-left: 10px;
     border-radius: 10px;
 }
 #card1-bg{
     background-color:rgb(231, 250, 249);
+    margin-right: .3in;
+    margin-left: .5in;
 }
 #card2-bg{
     background-color:rgb(253, 238, 241);
+    margin-right: .3in;
 }
 #card3-bg{
     background-color:cornsilk;
+    margin-right: .5in;
 }
 .card-img{
     height: 100px;
     width: 100px;
     margin-top: 1em;
+}
+.card2-img{
+    height: 350px;
+    width: 350px;
+    margin-left: 3em;
+}
+.my-develop{
+    display: flex;
+    margin-top: 1in;
+    margin-left: 100px;
+    
+    
+}
+.develop-limits{
+    margin-left: 45px;
+    width:60%;
+    
+    word-wrap: break-word;
+}
+.header-two{
+    line-height: 1em;
+}
+.img-one{
+    background-image: url(images/shapes/shape-1.png) ;
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-position-y: .5in;    
 }
