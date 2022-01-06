@@ -1,0 +1,29 @@
+body{
+    font-family: 'EB Garamond', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Source Serif Pro', serif;
+}
+h1{
+    font-size: 50px;
+}
+.header{
+    color: red;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 75%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: white;
+    
+}
