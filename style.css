@@ -1,15 +1,18 @@
 body{
-    font-family: 'EB Garamond', serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Source Serif Pro', serif;
+    max-width:1520px;
+    width:100%;
+    height:auto;
+    margin: 0 auto;
+    /* font-family: 'EB Garamond', serif; */
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Source Serif Pro', serif; */
 }
 .top-header{
     font-size: 50px;
     border-left: 3px solid orange;
     padding-left: 10px;
     margin-top: 1.5in;
-    line-height: .5em;
-    
+    line-height: .5em; 
 }
 h1{
     font-size: 50px;
@@ -27,18 +30,14 @@ h1{
 .half-width img{
     width: 75%;
 }
-.btn-margin{
-    width:150px;
-    margin-top: .1in;
-}
 .link-button{
+    display: inline-block;
+    margin-top: 5px;
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 8px 20px;
     border-radius: 5px;
-    color: white;
-    
-    
+    color: white; 
 }
 .orange-color{
     color:red;
@@ -82,9 +81,7 @@ h1{
 .my-develop{
     display: flex;
     margin-top: 1in;
-    margin-left: 100px;
-    
-    
+    margin-left: 100px;   
 }
 .develop-limits{
     margin-left: 45px;
@@ -106,19 +103,35 @@ h1{
     margin-bottom: .5in;
 }
 .global-text{
-    width: 50%;
+    word-wrap: break-word;
     padding-left: 10%;
-    line-height: 1em;
+    line-height: 1.5em;
 }
 .global-text img{
     height: 350px;
     width: 350px;
     padding-bottom: 50px;
+    margin-right: 1.5in;
 }
 #community-img{
     background-image: url(images/shapes/shape-1.png) ;
     background-repeat: no-repeat;
     background-size: 120px;
     background-position: 430px;
-    background-position-y: 270px;
+    background-position-y: 280px;    
+}
+.footer{
+    background-color: black;
+    color:white;
+    height: 2in;
+    text-align: center;
+}
+.footer h1{
+    display:inline-block;
+    margin-top:.5in;
+    font-size: 40px;
+    font-family:'Source Serif Pro', serif;
+}
+#footer-header{
+    color: tomato;
 }
