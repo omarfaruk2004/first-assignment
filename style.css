@@ -74,7 +74,7 @@ h1{
     width: 100px;
     margin-top: 1em;
 }
-.card2-img{
+.develop-limits-img{
     height: 350px;
     width: 350px;
     margin-left: 3em;
@@ -89,7 +89,6 @@ h1{
 .develop-limits{
     margin-left: 45px;
     width:60%;
-    
     word-wrap: break-word;
 }
 .header-two{
@@ -100,4 +99,26 @@ h1{
     background-repeat: no-repeat;
     background-size: 120px;
     background-position-y: .5in;    
+}
+.global-community{
+    display: flex;
+    margin-top: 1in;
+    margin-bottom: .5in;
+}
+.global-text{
+    width: 50%;
+    padding-left: 10%;
+    line-height: 1em;
+}
+.global-text img{
+    height: 350px;
+    width: 350px;
+    padding-bottom: 50px;
+}
+#community-img{
+    background-image: url(images/shapes/shape-1.png) ;
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-position: 430px;
+    background-position-y: 270px;
 }
